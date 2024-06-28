@@ -28,13 +28,13 @@ public class Maps {
         System.out.println(lhs);
         System.out.println("________________");
 
-        TreeMap tr = new TreeMap();
-        hs.put(120, e1);
-        hs.put(121, e2);
-        hs.put(122, e3);
+        TreeMap tr = new TreeMap(); // default sorting order is asecnding oredr
+        tr.put(120, e1);
+        tr.put(126, e2);
+        tr.put(122, e3);
 
-        System.out.println(" output");
-        System.out.println(hs);
+        System.out.println("Tree Map output");
+        System.out.println(tr);
 
     }
 
